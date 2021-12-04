@@ -9,3 +9,104 @@
     padding: 10px;
     font-size: 0.5rem;
 }
+
+h1{
+color:white ;
+    float: none;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h6{
+    color:white ;
+    float: none;
+    text-align: center;
+}
+#top{
+    display:inline-block;
+    background-color:#ffc720;
+    float: none;
+    margin-bottom: 10px;
+    margin: 0 auto;
+
+}
+#bottom_left{
+    display:inline-block;
+    margin: 0 auto; /* Added */
+    float: left; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color:black;
+}
+#bottom_right{
+    display:inline-block;
+    margin: 0 auto; /* Added */
+    float: right; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color:black;
+}
+#pic{
+    float: right; /* Added */
+}
+#writing_a{
+    display:inline-block;
+    margin: 0 auto; /* Added */
+    float: left; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color:white ;
+}
+#writing_b{
+    display:inline-block;
+    margin: 0 auto; /* Added */
+    float: right; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color:white ;
+}
+#plan_writting{
+    color: black;
+    float:none;
+    text-align: center;
+    font-size:115px ;
+}
+h2 {
+    color: black;
+    float: none;
+    text-align: center;
+}
+h4{
+    color: black;
+    float: none;
+    text-align: center;
+}
+h6{
+    font-family:"Helvetica Neue" ;
+    color: black;
+}
+a{
+    float:none;
+    text-align: center;
+    font-size:25px ;
+}
+#a_box{
+    display:inline-block;
+    margin: 0 auto; /* Added */
+    float: left; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color:white;
+
+}
+#r_box{
+    display:inline-block;
+    margin: 0 auto; /* Added */
+    float: right; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color:gray;
+}
+#pro{
+    float:left;
+}
+#bridge{
+    font-size:20px
+}

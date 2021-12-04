@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/OPn.png">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="IS117-BootstrapStarterFilesV5/css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-light navbar-light
+                    col-12">
+                <!-- Brand -->
+                <img src="images/OPn.png" alt="OPN logo" height="65" width = 70>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href=index.html>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=resume.html>Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href= contact.html>Contact</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href=5g.html id="navbardrop"
+                               data-toggle="dropdown"  role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                5g
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href= plans.html>Plans</a>
+                            </div>
+                </div>
+                </li>
+                </ul>
+                <form class = "form-line">
+                    <input class="form-control mr-sm 2" type ="search" placeholder ="search" aria-label="search">
+                    <button class = "btn btn-light my-sm-0" type = "submit"></button>
+        </div>
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/map.jpg" alt="Los Angeles" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/benefits.jpg"alt="Chicago" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/worker.jpg" alt="New York" class="d-block w-100">
+                </div>
+            </div>
+
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        </div>
+
+
+
+        </nav>
+
+    </div>
+    <p class="col-1"> </p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <p class="col-1"></p>
+    <div class="col-sm-4  text-center">
+        <h2> </h2>
+        <h3> </h3>
+    </div>
+</div>
+<footer class="footer page-footer font-medium ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Petit-Frere, Sebastien, 2021 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
